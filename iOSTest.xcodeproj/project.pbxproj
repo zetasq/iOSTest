@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D4012BE42012F08400FF0BC9 /* RoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4012BE32012F08400FF0BC9 /* RoundView.swift */; };
+		D42F4C4D20986AF20020C976 /* CustomScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42F4C4C20986AF20020C976 /* CustomScrollView.swift */; };
+		D4915EE8200BCC6700676702 /* UIColor+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4915EE7200BCC6700676702 /* UIColor+Util.swift */; };
+		D4915F8C2011DAF900676702 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4915F8B2011DAF900676702 /* CustomCell.swift */; };
+		D4915F8E2011DB0C00676702 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4915F8D2011DB0C00676702 /* CustomView.swift */; };
+		D492350A201F73C70073F327 /* DynamicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4923509201F73C70073F327 /* DynamicsViewController.swift */; };
 		D4B507DE1F546C2D0079F139 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B507DD1F546C2D0079F139 /* AppDelegate.swift */; };
-		D4B507E01F546C2D0079F139 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B507DF1F546C2D0079F139 /* ViewController.swift */; };
-		D4B507E31F546C2D0079F139 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4B507E11F546C2D0079F139 /* Main.storyboard */; };
+		D4B507E01F546C2D0079F139 /* TestListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B507DF1F546C2D0079F139 /* TestListViewController.swift */; };
 		D4B507E51F546C2D0079F139 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4B507E41F546C2D0079F139 /* Assets.xcassets */; };
 		D4B507E81F546C2D0079F139 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4B507E61F546C2D0079F139 /* LaunchScreen.storyboard */; };
+		D4C295152042FA430040B988 /* MatrixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C295142042FA430040B988 /* MatrixViewController.swift */; };
+		D4CF3AF22097F892004882D8 /* ContainerScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CF3AF12097F892004882D8 /* ContainerScrollViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D4012BE32012F08400FF0BC9 /* RoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundView.swift; sourceTree = "<group>"; };
+		D42F4C4C20986AF20020C976 /* CustomScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScrollView.swift; sourceTree = "<group>"; };
+		D4915EE7200BCC6700676702 /* UIColor+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Util.swift"; sourceTree = "<group>"; };
+		D4915F8B2011DAF900676702 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		D4915F8D2011DB0C00676702 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		D4923509201F73C70073F327 /* DynamicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicsViewController.swift; sourceTree = "<group>"; };
 		D4B507DA1F546C2D0079F139 /* iOSTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4B507DD1F546C2D0079F139 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D4B507DF1F546C2D0079F139 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D4B507E21F546C2D0079F139 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4B507DF1F546C2D0079F139 /* TestListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestListViewController.swift; sourceTree = "<group>"; };
 		D4B507E41F546C2D0079F139 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4B507E71F546C2D0079F139 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4B507E91F546C2D0079F139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4C295142042FA430040B988 /* MatrixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixViewController.swift; sourceTree = "<group>"; };
+		D4CF3AF12097F892004882D8 /* ContainerScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerScrollViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +69,15 @@
 			isa = PBXGroup;
 			children = (
 				D4B507DD1F546C2D0079F139 /* AppDelegate.swift */,
-				D4B507DF1F546C2D0079F139 /* ViewController.swift */,
-				D4B507E11F546C2D0079F139 /* Main.storyboard */,
+				D4915EE7200BCC6700676702 /* UIColor+Util.swift */,
+				D4CF3AF12097F892004882D8 /* ContainerScrollViewController.swift */,
+				D42F4C4C20986AF20020C976 /* CustomScrollView.swift */,
+				D4B507DF1F546C2D0079F139 /* TestListViewController.swift */,
+				D4C295142042FA430040B988 /* MatrixViewController.swift */,
+				D4915F8B2011DAF900676702 /* CustomCell.swift */,
+				D4923509201F73C70073F327 /* DynamicsViewController.swift */,
+				D4915F8D2011DB0C00676702 /* CustomView.swift */,
+				D4012BE32012F08400FF0BC9 /* RoundView.swift */,
 				D4B507E41F546C2D0079F139 /* Assets.xcassets */,
 				D4B507E61F546C2D0079F139 /* LaunchScreen.storyboard */,
 				D4B507E91F546C2D0079F139 /* Info.plist */,
@@ -91,12 +112,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Zhu Shengqi";
 				TargetAttributes = {
 					D4B507D91F546C2D0079F139 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = DHNJ8N28ZZ;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,7 +148,6 @@
 			files = (
 				D4B507E81F546C2D0079F139 /* LaunchScreen.storyboard in Resources */,
 				D4B507E51F546C2D0079F139 /* Assets.xcassets in Resources */,
-				D4B507E31F546C2D0079F139 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4B507E01F546C2D0079F139 /* ViewController.swift in Sources */,
+				D492350A201F73C70073F327 /* DynamicsViewController.swift in Sources */,
+				D4C295152042FA430040B988 /* MatrixViewController.swift in Sources */,
+				D4915F8C2011DAF900676702 /* CustomCell.swift in Sources */,
+				D4CF3AF22097F892004882D8 /* ContainerScrollViewController.swift in Sources */,
+				D42F4C4D20986AF20020C976 /* CustomScrollView.swift in Sources */,
+				D4012BE42012F08400FF0BC9 /* RoundView.swift in Sources */,
+				D4915EE8200BCC6700676702 /* UIColor+Util.swift in Sources */,
+				D4915F8E2011DB0C00676702 /* CustomView.swift in Sources */,
+				D4B507E01F546C2D0079F139 /* TestListViewController.swift in Sources */,
 				D4B507DE1F546C2D0079F139 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,14 +174,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D4B507E11F546C2D0079F139 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D4B507E21F546C2D0079F139 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D4B507E61F546C2D0079F139 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -174,7 +195,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -182,7 +205,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -225,7 +252,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -233,7 +262,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -268,7 +301,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zetasq.iOSTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -281,7 +315,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zetasq.iOSTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -304,6 +339,7 @@
 				D4B507EE1F546C2D0079F139 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
